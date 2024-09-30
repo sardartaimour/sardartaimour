@@ -12,8 +12,8 @@
 - **Tools**: Docker, AWS, Firebase, GitHub Actions, CI/CD
 
 ### Let's Connect!
-- 💼 [LinkedIn]((www.linkedin.com/in/sardartaimour))
-- 🐦 [Twitter]((https://twitter.com/Taimour2347))
+- 💼 [LinkedIn](www.linkedin.com/in/sardartaimour)
+- 🐦 [Twitter]([https://twitter.com/Taimour2347])
 
 <!--
 **sardartaimour/sardartaimour** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
