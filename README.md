@@ -12,7 +12,7 @@
 - **Tools**: Docker, AWS, Firebase, GitHub Actions, CI/CD
 
 ### Let's Connect!
-- 💼 [LinkedIn]([www.linkedin.com/in/sardartaimour](https://www.linkedin.com/in/sardartaimour/))
+- 💼 [LinkedIn](https://www.linkedin.com/in/sardartaimour/)
 - 🐦 [Twitter](https://twitter.com/Taimour2347)
 
 <!--
