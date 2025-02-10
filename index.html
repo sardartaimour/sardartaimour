@@ -1,67 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-        h1 { text-align: center; }
-        .project { margin-bottom: 40px; }
-        img { width: 100%; border-radius: 10px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
-    </style>
-</head>
-<body>
-
-    <h1>🚀 My Portfolio</h1>
-
-    <div class="project">
-        <h2>1️⃣ Money Transfer App</h2>
-        <p><b>Tech Stack:</b> Angular, Node.js, Sequelize, PostgreSQL, Firebase</p>
-        <p><b>Description:</b> A secure money transfer app with real-time tracking.</p>
-        <img src="money-transfer-ui.png" alt="Money Transfer App UI">
-        <h3>🔹 Features:</h3>
-        <ul>
-            <li>Real-time transaction tracking</li>
-            <li>Multi-factor authentication</li>
-            <li>Admin dashboard for compliance monitoring</li>
-        </ul>
-        <h3>🔹 Code Snippet:</h3>
-        <pre>
+<div class="project">
+    <h2>1️⃣ Money Transfer App</h2>
+    <p><b>Tech Stack:</b> Angular, Node.js, Sequelize, PostgreSQL, Firebase</p>
+    
+    <h3>🔹 Overview:</h3>
+    <p>The Money Transfer App allows users to send money securely worldwide. It includes real-time tracking and compliance verification.</p>
+    
+    <h3>🔹 Challenges & Solutions:</h3>
+    <ul>
+        <li><b>Challenge:</b> Ensuring real-time updates for transactions.</li>
+        <li><b>Solution:</b> Used Firebase Firestore for real-time notifications.</li>
+        <li><b>Challenge:</b> Securing sensitive financial data.</li>
+        <li><b>Solution:</b> Implemented JWT and API key authentication.</li>
+    </ul>
+    
+    <h3>🔹 Architecture Diagram:</h3>
+    <img src="architecture-diagram.png" alt="Money Transfer App Architecture">
+    
+    <h3>🔹 Screenshots:</h3>
+    <img src="money-transfer-ui.png" alt="Money Transfer App UI">
+    
+    <h3>🔹 Code Snippet:</h3>
+    <pre>
 const jwt = require('jsonwebtoken');
 function generateToken(user) {
     return jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '30d' });
 }
-        </pre>
-    </div>
-
-    <div class="project">
-        <h2>2️⃣ Secure API for Partner Integration</h2>
-        <p><b>Tech Stack:</b> Node.js, JWT, API Key Security, Sequelize</p>
-        <p><b>Description:</b> Secure API system for partners to integrate financial services.</p>
-        <img src="secure-api-ui.png" alt="Secure API System">
-        <h3>🔹 Features:</h3>
-        <ul>
-            <li>JWT-based authentication</li>
-            <li>API key rotation</li>
-            <li>Webhooks for real-time updates</li>
-        </ul>
-        <h3>🔹 Code Snippet:</h3>
-        <pre>
-async function performTransaction(actions) {
-    const transaction = await sequelize.transaction();
-    try {
-        const results = await Promise.all(actions.map(action => action(transaction)));
-        await transaction.commit();
-        return results;
-    } catch (error) {
-        await transaction.rollback();
-        throw error;
-    }
-}
-        </pre>
-    </div>
-
-</body>
-</html>
+    </pre>
+</div>
