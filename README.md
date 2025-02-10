@@ -1,7 +1,7 @@
 # Hi, I'm Taimour Ali 👋
 ### 🚀 Full-Stack Developer | Angular | Node.js | React | AWS | Firebase
 
-Welcome to my **GitHub Portfolio!** Since most of my client's projects are private, this repository provides **case studies, code snippets, and screenshots** showcasing my skills and experience.
+<!-- Welcome to my **GitHub Portfolio!** Since most of my client's projects are private, this repository provides **case studies, code snippets, and screenshots** showcasing my skills and experience.-->
 
 - 💻 I specialize in Full-Stack Web Development, API integration, and Cloud Services.
 - 🌱 I’m currently learning Serverless Architecture.
