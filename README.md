@@ -1,5 +1,5 @@
 # Hi, I'm Taimour Ali 👋
-#### 🚀 Full-Stack Developer | Angular | Node.js | React | AWS | Firebase | Freelancer
+### 🚀 Full-Stack Developer | Angular | Node.js | React | AWS | Firebase | Freelancer
 
 - 💻 I specialize in Full-Stack Web Development, API integration, and Cloud Services.
 - 🌱 I’m currently learning Serverless Architecture.
